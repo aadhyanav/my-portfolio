@@ -1,0 +1,289 @@
+
+.App {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+}
+.about-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #FFE8F8;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 0rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap; /* responsive for smaller screens */
+  text-align: left;
+}
+
+.about-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #EA89AA;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.skills-box {
+  background-color: #ffffff;
+  border: 2px solid #EA89AA;
+  padding: 1.5rem;
+  flex: 1;
+  border-radius: 12px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.skills-box h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.skills-list-bullets {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.skills-box2 {
+  background-color: #ffffff;
+  border: 2px solid #EA89AA;
+  padding: 1.5rem;
+  flex: 1;
+  border-radius: 12px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.skills-box2 h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.skills-list-bullets2 {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.about-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+.experience-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #FFE8F8;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.experience-layout {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.company-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.company-button {
+  background-color: #fff;
+  border: 2px solid #EA89AA;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  width: 200px;
+}
+
+.company-button:hover,
+.company-button.active {
+  background-color: #EA89AA;
+  color: white;
+}
+
+.experience-details {
+  background-color: #fff;
+  border: 2px solid #EA89AA;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.experience-details h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.experience-details p {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.experience-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #FFE8F8;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projects-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 350px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 3px solid #EA89AA;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projects-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-button {
+  background-color: #fff;
+  border: 2px solid #EA89AA;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  width: 200px;
+}
+
+.project-button:hover,
+.project-button.active {
+  background-color: #EA89AA;
+  color: white;
+}
+
+.project-details {
+  background-color: #fff;
+  border: 2px solid #EA89AA;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.project-details h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.project-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.8;
+}
