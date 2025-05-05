@@ -5,7 +5,7 @@ function About() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image-section">
-    <img src="/aadhya.jpg" alt="Aadhya's photo" className="about-image" />
+    <img src="/aadhya.jpg" alt="Aadhya" className="about-image" />
     <div className="social-links">
       <a href="https://www.linkedin.com/in/aadhya-n-a87a96268/" target="_blank" rel="noopener noreferrer">
         <img src="/linkedin.png" alt="LinkedIn" />
