@@ -7,7 +7,7 @@ function About() {
         <div className="about-image-section">
     <img src="/aadhya.jpg" alt="Aadhya" className="about-image" />
     <div className="social-links">
-      <a href="https://www.linkedin.com/in/aadhya-n-a87a96268/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/aadhya-naveen-a87a96268/" target="_blank" rel="noopener noreferrer">
         <img src="/linkedin.png" alt="LinkedIn" />
       </a>
       <a href="https://github.com/aadhyanav/" target="_blank" rel="noopener noreferrer">
