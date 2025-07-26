@@ -7,7 +7,7 @@ function About() {
         <div className="about-image-section">
     <img src="/aadhya.jpg" alt="Aadhya" className="about-image" />
     <div className="social-links">
-      <a href="https://www.linkedin.com/in/aadhya-naveen-a87a96268/" target="_blank" rel="noopener noreferrer"> #update
+      <a href="https://www.linkedin.com/in/aadhya-naveen-a87a96268/" target="_blank" rel="noopener noreferrer"> 
         <img src="/linkedin.png" alt="LinkedIn" />
       </a>
       <a href="https://github.com/aadhyanav/" target="_blank" rel="noopener noreferrer">
@@ -21,8 +21,7 @@ function About() {
         However, I soon discovered the limitless ways in which data and technology can be used to solve real-world problems and make 
         a meaningful impact on people’s lives. </p> 
 
-        <p> Currently, I've been working at SoCalGas as a Business Analyst for almost a year, and then prior to that a 
-        undergraduate research assistant at UCSD's Economics Lab. In my free time, I like to hike, dance, read, and explore new places! 
+        <p> Currently, I'm a Data Science Masters student at USF and I previously worked at SoCalGas as a Business Analyst. In my free time, I like to hike, dance, read, and explore new places! 
         I'm continuously learning! :)
         </p>
       </div>
