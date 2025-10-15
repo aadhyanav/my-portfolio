@@ -4,7 +4,7 @@ const Experience = () => {
   const experiences = [
     {
       company: 'SoCalGas',
-      title: 'IT Business Analyst (Contract)',
+      title: ' Data Analyst/Engineer (Contract)',
       dates: 'Jul 2024 – Present, Downtown Los Angeles (Hybrid)',
       description: [
         'Automated financial reporting by integrating SharePoint and TM1 forecast data with Python (Pandas), generating Excel reports. Reduced manual work by 80% and delivered weekly-to-annual insights on trends, cash flow, and spending.',
