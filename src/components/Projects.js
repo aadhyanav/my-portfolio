@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       name: 'Cat Persona Quiz',
-      image: {process.env.PUBLIC_URL + '/Cat.png'},
+      image: process.env.PUBLIC_URL + '/Cat.png',
       description: [
         'Created an interactive full-stack web application using JavaScript, HTML, and CSS, engaging users with a dynamic personality quiz that returns a user’s “cat persona” after a series of questions.',
         'Focused on user-centric design, incorporating intuitive UI/UX, attractive layouts, and accessibility features.',
@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       name: 'Recipe Prediction Model',
-      image: {process.env.PUBLIC_URL + '/Recipe.png'},
+      image: process.env.PUBLIC_URL + '/Recipe.png',
       description: [
         'Built a predictive ML pipeline in Python (scikit-learn, Pandas) using a RandomForestClassifier to classify recipe ratings (1-5) based on key features, achieving a 78% F1-score.',
         'Engineered features using one-hot encoding, dataset merging, and normalization, optimizing for model performance.',
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       name: 'San Diego Air Traffic Visualization',
-      image: {process.env.PUBLIC_URL +'/SDAir.png'},
+      image: process.env.PUBLIC_URL +'/SDAir.png',
       description: [
         'Led the collaborative development of a JavaScript interactive visualization using d3.js and Svelte, highlighting trends in air traffic at the San Diego International Airport.',
         'Analyzed passenger data and found that travelers are three times more likely to fly domestically than internationally, emphasizing San Diego Airport’s prominence as a domestic connecting hub over an international hub.',
@@ -43,7 +43,7 @@ const Projects = () => {
     },
     {
         name: 'India Safety Index & Crime Analysis (In progress)',
-        image: {process.env.PUBLIC_URL +'/India.png'},
+        image: process.env.PUBLIC_URL +'/India.png',
         description: [
           'Conducted exploratory data analysis on crime data in India using Python packages Seaborn and Matplotlib to visualize victim demographics across regions.',
           'Developed a predictive model to generate a city-based safety index from 1-5, using ML techniques for risk assessment.'
