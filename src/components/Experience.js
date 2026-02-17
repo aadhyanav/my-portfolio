@@ -3,25 +3,27 @@ import React, { useState } from 'react';
 const Experience = () => {
   const experiences = [
     {
+      company: 'XDR Radiology',
+      title: ' Data Scientist Intern ',
+      dates: 'Oct 2025 – Present, Remote',
+      description: [
+        'Built machine learning pipelines leveraging TF-IDF vectorization and unsupervised clustering to analyze large-scale customer and product data, uncovering patterns and segment-level insights. Communicated findings through structured analyses and visualizations.'
+      ]
+    }
+    {
       company: 'SoCalGas',
       title: ' Data Analyst/Engineer',
-      dates: 'Jul 2024 – Present, Downtown Los Angeles (Hybrid)',
+      dates: 'Jul 2024 – Jun 2025, Downtown Los Angeles (Hybrid)',
       description: [
-        'Optimized ETL pipelines in Python and SQL to extract and structure financial forecast data from TM1 and Sharepoint.',
-        'Developed automated reporting pipelines that integrated analytics into workflows, reducing manual effort by 80%.',
-        'Led meetings with support teams and stakeholders to gather key documents (e.g., Recovery Scripts, Architecture Diagrams) and coordinated off-shore approvals for Disaster Recovery testing.',
-        'Collaborated closely with Business and Technical Project Managers to gather project scope and timeline details for the development of comprehensive Business Requirements documentation.'
+        'Developed Python- and SQL-based data pipelines and automated analytics workflows, collaborating with stakeholders to deliver validated datasets and insight-driven dashboards for leadership.'
       ]
     },
     {
       company: 'UCSD Economics Lab',
-      title: 'Research Assistant',
+      title: 'Data Science Researcher',
       dates: 'Sep 2022 – Jun 2024, San Diego',
       description: [
-        'Developed a large-scale data collection pipeline using Python (BeautifulSoup, Requests, Pandas) to scrape and structure NGO data across African regions for economic impact analysis.',
-        'Designed a Python script for optical character recognition (OCR), extracting text from historical images, applying advanced string manipulation and APIs for language translation from French to English to improve accuracy and readability.',
-        'Summarized findings from over 80+ documents for a comprehensive literature review on state-level responses to the closure of religious places of worship across all 50 U.S. states during the COVID-19 pandemic.',
-        'Created various visualizations using Matplotlib and Seaborn in Python after transforming and cleaning datasets of raw data collected for household bargaining in India. '
+        'Designed Python-based data collection and processing pipelines for large-scale economic and social research, leveraging OCR for text extraction from historical documents, multilingual translation, and advanced data cleaning. Transformed unstructured data into analysis-ready datasets and visual insights.'
       ]
     }
   ];
