@@ -5,10 +5,10 @@ function About() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image-section">
-    <img src="/aadhya.jpg" alt="Aadhya" className="about-image" />
+    <img src={process.env.PUBLIC_URL + "/aadhya.jpg"} alt="Aadhya" className="about-image" />
     <div className="social-links">
       <a href="https://www.linkedin.com/in/aadhya-naveen-a87a96268/" target="_blank" rel="noopener noreferrer"> 
-        <img src="/linkedin.png" alt="LinkedIn" />
+        <img src={process.env.PUBLIC_URL + "/linkedin.png"} alt="LinkedIn" />
       </a>
       <a href="https://github.com/aadhyanav/" target="_blank" rel="noopener noreferrer">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
