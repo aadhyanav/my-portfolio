@@ -21,8 +21,8 @@ function About() {
         However, I soon discovered the limitless ways in which data and technology can be used to solve real-world problems and make 
         a meaningful impact on people’s lives. </p> 
 
-        <p> Currently, I'm a Data Science Masters student at USF and I previously worked at SoCalGas as a Business Analyst. In my free time, I like to hike, dance, read, and explore new places! 
-        I'm continuously learning! :)
+        <p> Currently, I'm a Data Science Masters student at USF and I previously worked at SoCalGas as an Analyst. In my free time, I like to hike, dance, read, and explore new places! 
+        I'm continuously learning! :) 
         </p>
       </div>
       </div>
