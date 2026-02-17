@@ -4,11 +4,11 @@ const Experience = () => {
   const experiences = [
     {
       company: 'SoCalGas',
-      title: ' Data Analyst/Engineer (Contract)',
+      title: ' Data Analyst/Engineer',
       dates: 'Jul 2024 – Present, Downtown Los Angeles (Hybrid)',
       description: [
-        'Automated financial reporting by integrating SharePoint and TM1 forecast data with Python (Pandas), generating Excel reports. Reduced manual work by 80% and delivered weekly-to-annual insights on trends, cash flow, and spending.',
-        'Created Excel reports with formulas, pivot tables, and data validation to track application architecture (e.g., active-active servers, cloud setups), and compiled findings into quarterly metrics for directors.',
+        'Optimized ETL pipelines in Python and SQL to extract and structure financial forecast data from TM1 and Sharepoint.',
+        'Developed automated reporting pipelines that integrated analytics into workflows, reducing manual effort by 80%.',
         'Led meetings with support teams and stakeholders to gather key documents (e.g., Recovery Scripts, Architecture Diagrams) and coordinated off-shore approvals for Disaster Recovery testing.',
         'Collaborated closely with Business and Technical Project Managers to gather project scope and timeline details for the development of comprehensive Business Requirements documentation.'
       ]
