@@ -9,7 +9,7 @@ const Experience = () => {
       description: [
         'Built machine learning pipelines leveraging TF-IDF vectorization and unsupervised clustering to analyze large-scale customer and product data, uncovering patterns and segment-level insights. Communicated findings through structured analyses and visualizations.'
       ]
-    }
+    },
     {
       company: 'SoCalGas',
       title: ' Data Analyst/Engineer',
