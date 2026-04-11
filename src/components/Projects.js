@@ -3,19 +3,6 @@ import React, { useState } from 'react';
 const Projects = () => {
   const projects = [
     {
-      name: 'Cat Persona Quiz',
-      image: process.env.PUBLIC_URL + '/Cat.png',
-      description: [
-        'Created an interactive full-stack web application using JavaScript, HTML, and CSS, engaging users with a dynamic personality quiz that returns a user’s “cat persona” after a series of questions.',
-        'Focused on user-centric design, incorporating intuitive UI/UX, attractive layouts, and accessibility features.',
-        'Implemented Git for version control and shared code repository, ensuring seamless collaboration and iterative development.'
-      ],
-      link: {
-        url: 'https://aadhyanav.github.io/CatWonderland/',
-        text: 'Take the Quiz Here!'
-      }
-    },
-    {
       name: 'Recipe Prediction Model',
       image: process.env.PUBLIC_URL + '/Recipe.png',
       description: [
